@@ -65,44 +65,31 @@
 ## Options
 
 * topSpacing
-  * 預設: 0 \
-  元素離頂部多少px的時候要固定住
+  * 預設: 0；元素離頂部多少px的時候要固定住
 
 * bottomSpacing
-  * 預設: 0 \
-  元素離底部多少px的時候要取消 sticky \
-  目前沒有找到實際用法
+  * 預設: 0；元素離底部多少px的時候要取消 sticky，目前沒有找到實際用法
 
 * className
-  * 預設: 'is-sticky' \
-  變成 sticky 元素時將這個 className 加入 wrapper Container
+  * 預設: 'is-sticky'；變成 sticky 元素時將這個 className 加入 wrapper Container
 
 * wrapperClassName
-  * 預設: 'sticky-wrapper' \
-  目標元素的 wrapper container 的 className
+  * 預設: 'sticky-wrapper'；目標元素的 wrapper container 的 className
 
 * center
-  * 預設: false \
-  對 Wraper Container 增加 margin: 0 auto;
+  * 預設: false；對 Wraper Container 增加 margin: 0 auto;
 
 * getWidthFrom
-  * 預設: '' \
-  變成 sticky 後，每次滾動都會依照什麼 DOM 去計算寬度，預設空值會用 Wrapper Container
+  * 預設: ''；變成 sticky 後，每次滾動都會依照什麼 DOM 去計算寬度，預設空值會用 Wrapper Container
 
 * widthFromWrapper
-  * 預設: true \
-  true: getWidthFrom 空值會用 Wrapper Container \
-  false: 用原始DOM取得寬度
+  * 預設: true；true: getWidthFrom 空值會用 Wrapper Container，false: 用原始DOM取得寬度
 
 * responsiveWidth
-  * 預設: false \
-  使用 getWidthfrom \
-  getWidthFrom 不為空值時才有作用 \
-  變更視窗大小時，是否要重新計算寬度
+  * 預設: false；使用 getWidthfrom，getWidthFrom 不為空值時才有作用，變更視窗大小時，是否要重新計算寬度
 
 * zIndex
-  * 預設: auto \
-  原始 DOM 的 z-index 值
+  * 預設: auto；原始 DOM 的 z-index 值
 
 ## Event
 
