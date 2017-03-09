@@ -65,10 +65,10 @@
 ## Options
 
 * topSpacing
-  * 預設: 0；元素離頂部多少px的時候要固定住
+  * 預設: 0；元素離頂部多少px的時候要固定住
 
 * bottomSpacing
-  * 預設: 0；元素離底部多少px的時候要取消 sticky，目前沒有找到實際用法
+  * 預設: 0；元素離底部多少px的時候要取消 sticky，目前沒有找到實際用法
 
 * className
   * 預設: 'is-sticky'；變成 sticky 元素時將這個 className 加入 wrapper Container
